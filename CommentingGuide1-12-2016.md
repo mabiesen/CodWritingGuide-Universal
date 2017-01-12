@@ -32,7 +32,7 @@ func recurCompareInput(comparator string, successMsg string){
 		fmt.Println("Waiting for input...")
 		reader1 := bufio.NewReader(os.Stdin)
 		userInput, _ := reader1.ReadString('\n')
-		theInput := strings.TrimSpace(userInput)
+		theInput := strings.TrimSpace(userInput)  //trim space here because two spaces added to input??? why?
 		switch theInput{
 			case comparator: fmt.Println(successMsg)
 			default:
