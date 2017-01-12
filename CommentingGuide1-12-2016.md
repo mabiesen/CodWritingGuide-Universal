@@ -16,7 +16,7 @@ Commenting Guidelines:
 * @requiredFuncs if applicable
 * @src if obtained in whole from another source
 
-Commenting Example:
+Commenting Example Golang:
 ```Go
 //@func - recurCompareInput
 //@desc - Container function to wait for user to make the correct selection
