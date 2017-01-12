@@ -7,9 +7,15 @@ This commenting guide was created with input from the following webpages:
 * Hongkiat - http://www.hongkiat.com/blog/source-code-comment-styling-tips/ 
 * Golang Blog - https://blog.golang.org/godoc-documenting-go-code
 
+Commenting Requirements for Public Variables:
+
+* @var - name of var
+* @use - name of function(s) that use variable value
+* @change - name of function(s) that change the variable value
+
 Commenting Requirements for Functions:
 
-* (@func, @var, etc.)
+* @func - name of function
 * @desc -
 * @params - Line explaining each parameter
 * @return - Line explaining each return
@@ -18,7 +24,7 @@ Commenting Requirements for Functions:
 * @requiredFuncs if applicable
 * @src if obtained in whole from another source
 
-Commenting Example Golang:
+Function Commenting Example Golang:
 ```Go
 //@func - recurCompareInput
 //@desc - Container function to wait for user to make the correct selection
