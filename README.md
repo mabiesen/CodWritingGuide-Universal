@@ -1,4 +1,4 @@
-# CommentingGuide-Universal
+# Code Writing Guide - Universal
 
 This repository is to be used for all notes related to good testing, good comments, methodologies, etc.
 
