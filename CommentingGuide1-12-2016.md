@@ -7,7 +7,7 @@ This commenting guide was created with input from the following webpages:
 * Hongkiat - http://www.hongkiat.com/blog/source-code-comment-styling-tips/ 
 * Golang Blog - https://blog.golang.org/godoc-documenting-go-code
 
-Commenting Guidelines:
+Commenting Requirements for Functions:
 
 * (@func, @var, etc.)
 * @desc -
