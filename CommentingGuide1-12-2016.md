@@ -1,4 +1,6 @@
-#Commenting Guide 1-12-2016
+#Commenting Guide
+
+Up-to-date as of 1/12/2017
 
 This commenting guide was created with input from the following webpages:
 
