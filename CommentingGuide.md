@@ -1,6 +1,8 @@
 #Commenting Guide
 
-Up-to-date as of 1/12/2017
+Up-to-date as of 1/21/2017
+
+Note:  While comprehensive in nature, the below function commenting paradigm can be made simpler in the event that a function does not really require explanation.  This helps to improve readability of the code.
 
 This commenting guide was created with input from the following webpages:
 
