@@ -15,7 +15,7 @@ $ ruby -h
 ###Golang
 
 ```
-go --help
+go help
 ```
 
 ```
