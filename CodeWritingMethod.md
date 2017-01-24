@@ -2,7 +2,11 @@
 
 Basic formula for any programming project:
 
-## Once project is started, each functional change to a project should be committed to git control. ##
+Once project is started, each functional change to a project should be committed to git control.
+
+Project should only be manipulated locally.  After each major commit or series of commits, push to github.
+
+###General Project Roadmap
 
 1. Write down project criteria
 2. Work on the easy things first
