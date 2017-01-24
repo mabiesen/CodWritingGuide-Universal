@@ -2,6 +2,8 @@
 
 Basic formula for any programming project:
 
+## Once project is started, each functional change to a project should be committed to git control. ##
+
 1. Write down project criteria
 2. Work on the easy things first
  * This will help to provide clarity on the harder things
