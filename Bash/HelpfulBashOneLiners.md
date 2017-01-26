@@ -13,7 +13,7 @@ Explanation
 
 ```
 
-##Clone All Repose
+##Clone All Repos
 
 ```
 USER=foo; curl "https://api.github.com/users/$USER/repos?per_page=1000" | grep -o 'git@[^"]*' | xargs -L1 git clone
