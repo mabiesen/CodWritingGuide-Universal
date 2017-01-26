@@ -13,6 +13,12 @@ Explanation
 
 ```
 
+##Clone All Repose
+
+```
+USER=foo; curl "https://api.github.com/users/$USER/repos?per_page=1000" | grep -o 'git@[^"]*' | xargs -L1 git clone
+```
+
 ##Remove All .git References from Directory and All Subdirectories
 
 ```
