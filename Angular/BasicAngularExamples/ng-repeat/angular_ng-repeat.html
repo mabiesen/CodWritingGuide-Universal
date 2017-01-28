@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+
+<body ng-app="myApp" ng-controller="myCtrl">
+
+<h1 ng-repeat="x in records">{{x}}</h1>
+
+<script>
+var app = angular.module("myApp", []);
+app.controller("myCtrl", function($scope) {
+  $scope.records = [
+    "Alfreds Futterkiste",
+    "Berglunds snabbköp",
+    "Centro comercial Moctezuma",
+    "Ernst Handel",
+  ]
+});
+</script>
+
+</body>
+</html>
